@@ -2,7 +2,7 @@ name: Build and test
 on: [pull_request, push]
 jobs:
   build:
-    name: Build and test on Node ${{ matrix.node }} and ${{ matrix.os }}
+    name: Build and test on Nodee ${{ matrix.node }} and ${{ matrix.os }}
 
     runs-on: ${{ matrix.os }}
     strategy:
