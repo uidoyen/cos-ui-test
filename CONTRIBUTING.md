@@ -1,4 +1,4 @@
-# Contributing to cos-ui
+# Contributing to cos-ui-test
 
 The MAS-Connectors community welcomes anyone that wants to help out in any way, whether that includes reporting problems, helping with documentation, or contributing code changes to fix bugs, add tests, or implement new features. This document outlines the basic steps required to work with and contribute to the cos-ui codebase.
 
