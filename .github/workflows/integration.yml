@@ -29,8 +29,8 @@ jobs:
             cache-name: cache-node-modules-v2
         with:
             path: |
-                ~/.npm
-                ~/.cache/Cypress
+                .npm
+                .cache/Cypress
                 node_modules
                 */*/node_modules
             key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
